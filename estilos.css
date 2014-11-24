@@ -3,7 +3,7 @@
 
 .cont_general
 {
-	background-color: #06AED2;
+	/*background-color: #06AED2;*/
 	width: 960px;
 	margin: auto;
 	margin-left: 8em
@@ -20,6 +20,7 @@
 {
 	width: 100%;
 	background-color: #06AED2;
+	padding-bottom: 3em;
 }
 header
 {
@@ -70,6 +71,16 @@ span
 }
 
 /*estilos nav y avatar*/
+li
+{
+	margin-right: 4px;
+}
+
+ul
+{
+	list-style: none;
+}
+
 #avatar
 {
 	margin-left: 22em;
@@ -79,35 +90,48 @@ span
 	text-decoration: none;
 	color: white;
 	font-family: asap;
-	padding-top: 11em;
-	margin-top: -10.5em;
+	padding-top: 5.5em;
+	/* margin-top: -5em; */
 	display: inline-block;
-	font-size: 1.3em;
-	
+	font-size: 1.4em;
+	width: 6em;
 }
+#link_acerca
+{
+	margin-left: -10px;
+}
+#link_trabajo
+{
+	margin-left: -5px;
+}
+
 #link_contacto
 {
-	margin-left: 13px;
+	margin-left: 7px;
 }
 #icon_acerca
 {
 	float: right;
 	margin-top: -21em;
-	margin-right: 23em
+	margin-right: 23em;
+
+	width: 105px;
+	height: 105px;
+	
+	background-image: url(imagenes/icon_acerca.svg);
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+#icon_acerca:hover
+{
+	width: 105px;
+	height: 105px;
+	background-image: url(imagenes/icon_acerca-hover.svg);
+	background-repeat: no-repeat;
+	background-size: 100%; 
 }
 
-#link_trabajo
-{
-	
-}
-#link_acerca
-{
-	/*padding-top: 11em;
-	margin-top: -10.5em;
-	display: inline-block;
-	font-size: 1.3em;*/
-	margin-right: 4px
-}
+
 #dos_icon
 {
 	
@@ -116,20 +140,100 @@ span
 }
 #icon_trab
 {
+	width: 105px;
+	height: 105px;
 	float: left;
 	margin-right: 34em;
 	margin-left: 7em;
+	background-image: url(imagenes/icon_trabajo.svg);
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+#icon_trab:hover
+{
+	width: 105px;
+	height: 105px;
+	background-image: url(imagenes/icon_trabajo-hover.svg);
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+#icon_contact
+{
+	width: 105px;
+	height: 105px;
+	background-image: url(imagenes/icon_contacto.svg);
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	margin-left: 48em;
+}
+#icon_contact:hover
+{
+	width: 105px;
+	height: 105px;
+	background-image: url(imagenes/icon_contacto-hover.svg);
+	background-repeat: no-repeat;
+	background-size: 100%; 
 }
 #perfil
 {
-	margin-top: 15em
-}
-li
-{
-	margin-right: 4px;
-}
+	margin-top: 10em;
+	background-color: white;
+	width: 900px;
+	height: 280;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+	margin-left: 6em;
 
-ul
+
+}
+h2
 {
-	list-style: none;
+	color: #06AED2;
+	text-align: center;
+	font-family: asap;
+	font-size: 45px;
+	font-weight: 100;
+	margin: 9px;
+}
+#descrip_perfil
+{
+	text-align: justify;
+	color: #06AED2;
+	font-size: 1em;
+	font-weight: 100;
+	font-family: asap;
+	padding: 1px 30px 12px 30px;
+}
+#idea
+{
+	width: 42px;
+	height: 47px;
+	background-image: url(imagenes/idea.png);
+	position: absolute;
+	margin-left: 52em;
+	margin-top: -4em;
+}
+#contgen_section2
+{
+	background-image: url(imagenes/fondo_section2-01.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 951px;
+	/* background-position: center; */
+	margin-top: -1.2em;
+}
+#mitrabajo
+{
+	margin-left: 25em;
+	margin-top: -25em;
+}
+h3
+{
+	font-family: asaps;
+	font-weight: 100;
+	color: white;
+	font-size: 40px;
+	display: inline-block;
+	margin-left: 8em;
+	margin-top: 11em;
 }
